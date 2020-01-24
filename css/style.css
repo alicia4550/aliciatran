@@ -2801,7 +2801,8 @@ input[type="button"].btn-block {
   padding: 1.25rem; }
 
 .card-title {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem;
+  text-align: center; }
 
 .card-subtitle {
   margin-top: -0.375rem;
@@ -6509,6 +6510,11 @@ h1, h2, h3, h4, h5,
   color: #15db95;
   text-decoration: none; }
 
+ .slider-text h5 span {
+  font-weight: 800;
+  color: #15db95;
+  text-decoration: none; }
+
 .slider-text p {
   font-size: 20px;
   line-height: 1.5;
@@ -7177,17 +7183,17 @@ h1, h2, h3, h4, h5,
   color: #080f5b;
 }
 
-.experience .section div ul
+.section div ul
 {
   list-style:none;
 }
 
-.experience .section div ul li
+.section div ul li
 {
   position:relative;
 }
 
-.experience .section div ul li .gt
+.section div ul li .gt
 {
   position:absolute;
   left: -20px;
