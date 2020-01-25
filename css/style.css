@@ -926,3 +926,13 @@ input[type="button"]:focus {
   height: 5vh;
   margin: 2vh;
 }
+
+#linkedin:hover, #linkedin:focus, #linkedin:active {
+  content: url(../img/linkedin_click.png);
+}
+#github:hover, #github:focus, #github:active {
+  content: url(../img/github_click.png);
+}
+#devpost:hover, #devpost:focus, #devpost:active {
+  content: url(../img/devpost_click.png);
+}
