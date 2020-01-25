@@ -478,11 +478,6 @@ h6, .h6 {
 .align-middle {
   vertical-align: middle !important; }
 
-.clearfix::after {
-  display: block;
-  clear: both;
-  content: ""; }
-
 .justify-content-center {
   -webkit-box-pack: center !important;
   -ms-flex-pack: center !important;
@@ -875,6 +870,7 @@ span {
   color: #fff;
   border-radius: 0px;
   outline: 0 !important;
+  width: fit-content;
 }
 .btn a {
   color: #fff;
