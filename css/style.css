@@ -7209,3 +7209,19 @@ h1, h2, h3, h4, h5,
   margin: auto;
   align-items: center;
 }
+
+.contact {
+  background: #080f5b;
+  color: #fff;
+}
+.contact h2 {
+  color: #fff;
+}
+
+.contact .slider-text p {
+  color: #fff;
+}
+
+p a {
+  color: #fff;
+}
