@@ -876,12 +876,18 @@ span {
   border-radius: 0px;
   outline: 0 !important;
 }
-.btn:active, .btn:hover, .btn:focus, .btn:active:focus, .btn.active:focus, .btn:disabled{
+.btn a {
+  color: #fff;
+}
+.btn:active, .btn:hover, .btn:focus, .btn:active:focus, .btn.active:focus, .btn:disabled {
   background-color: #fff;
   color: #080f5b;
   border: 2px solid #080f5b;
   border-radius: 0px; 
   outline: 0 !important;
+}
+.btn a:active, .btn a:hover, .btn a:focus, .btn a:active:focus, .btn a.active:focus, .btn a:disabled {
+  color: #080f5b;
 }
 input[type="button"]:focus {
   outline: none;
