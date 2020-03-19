@@ -379,6 +379,12 @@ h6, .h6 {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
